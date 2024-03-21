@@ -745,13 +745,11 @@ async def run():
             private = a['key']
             address = a['addr']
             proxy = w['proxy']
-            ua = w['ua']
 
             await queue.put({
                 "private" : private,
                 "address" : address,
                 "proxy" : proxy,
-                "ua" : ua,
             })
 
     await asyncio.gather(*tasks)
