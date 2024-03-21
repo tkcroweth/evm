@@ -20,6 +20,6 @@ python3 wallet.py
 3. run python ultiverse.py
 ```
 > Explore the mission to open the following comments.
-> task = asyncio.create_task(explore_run(queue))
-> Register for an account to open the following comments.
-> task = asyncio.create_task(register(queue))
+task = asyncio.create_task(explore_run(queue))
+Register for an account to open the following comments.
+task = asyncio.create_task(register(queue))
