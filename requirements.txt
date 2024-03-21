@@ -4,8 +4,11 @@ async-timeout==4.0.3
 attrs==23.2.0
 bitarray==2.9.2
 certifi==2024.2.2
+cffi==1.16.0
 charset-normalizer==3.3.2
+curl_cffi==0.6.2
 cytoolz==0.12.3
+diskcache==5.6.3
 eth-account==0.11.0
 eth-hash==0.7.0
 eth-keyfile==0.8.0
@@ -23,6 +26,7 @@ lru-dict==1.2.0
 multidict==6.0.5
 parsimonious==0.9.0
 protobuf==5.26.0
+pycparser==2.21
 pycryptodome==3.20.0
 pyunormalize==15.1.0
 referencing==0.33.0
